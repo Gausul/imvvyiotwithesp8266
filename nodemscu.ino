@@ -2,11 +2,11 @@
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
  
-const char* ssid = "[Wifi SSID]";
+const char* ssid = "Wifi SSID";
 const char* password =  "WIFI Password";
 const char* mqttServer = "broker.imvvy.com";
 const int mqttPort = 8883;
-const char* mqttUser = "[MQTT Username]";
+const char* mqttUser = "MQTT Username";
 const char* mqttPassword = "MQTT Passqord";
  
 WiFiClient espClient;
