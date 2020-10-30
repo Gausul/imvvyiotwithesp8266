@@ -1,9 +1,16 @@
+
+//ESP8266 https://github.com/esp8266/Arduino 
 #include <ESP8266WiFi.h>
+
+//MQTT PubSub Library https://github.com/imvvy/pubsubclient
 #include <PubSubClient.h>
+
+//Arduino Json Library----------
 #include <ArduinoJson.h>
  
 const char* ssid = "Wifi SSID";
 const char* password =  "WIFI Password";
+
 const char* mqttServer = "broker.imvvy.com";
 const int mqttPort = 8883;
 const char* mqttUser = "MQTT Username";
@@ -18,20 +25,22 @@ void setup() {
  
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.println("Connecting to WiFi..");
+    Serial.print("Connecting to WiFi..");
+    Serial.println();
   }
-  Serial.println("Connected to the WiFi network");
+  Serial.print("Connected to the WiFi network");
+  Serial.println();
  
   client.setServer(mqttServer, mqttPort);
   client.setCallback(callback);
  
   while (!client.connected()) {
-    Serial.println("Connecting to MQTT...");
- 
+    Serial.print("Connecting to MQTT...");
+    Serial.println();
     if (client.connect("ESP8266Client", mqttUser, mqttPassword )) {
  
-      Serial.println("connected");  
- 
+      Serial.print("connected");  
+      Serial.println();
     } else {
 
  
@@ -42,7 +51,10 @@ void setup() {
     }
   }
  char JSONMessage[] = "{\"tag\":\"Temperature\", \"Value\": [20]}";
+ 
+ // Publish Topic
   client.publish("[Publish Topic ]", JSONMessage);
+ //subscribe Topic
   client.subscribe("[Publish Topic ]/subscribe");
  
 }
