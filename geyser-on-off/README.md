@@ -53,8 +53,6 @@ For OFF:
 
 #### WARNING!! – THIS PROJECT INVOLVES WORKING WITH HIGH VOLTAGES. PLEASE PROCEED WITH CAUTION, AND ALWAYS MAKE SURE CIRCUITS ARE UN-PLUGGED BEFORE WORKING ON THEM.
 
-# Connect Esp8266 with Imvvy IoT platform 
-### Free IoT Platform
 
 Create your free account.<a href="https://platform.imvvy.com/register" target="_blank"> `Click Here` </a>
 
