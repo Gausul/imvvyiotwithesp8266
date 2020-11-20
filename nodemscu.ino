@@ -55,7 +55,7 @@ void setup() {
  // Publish Topic
   client.publish("[Publish Topic ]", JSONMessage);
  //subscribe Topic
-  client.subscribe("[Publish Topic ]/subscribe");
+  client.subscribe("[Subscribe Topic ]/subscribe");
  
 }
  
