@@ -1,4 +1,4 @@
-##  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
+###  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
 
 ### IoT (Internet of things) set-up to operate/control 220-240 Volt AC Geyser/Device
 
@@ -19,7 +19,7 @@
 
 Sample Code Link: 
 
-`<a href="https://github.com/Gausul/imvvyiotwithesp8266/blob/main/geyser-on-off/code.ino">Download Sample Code</a>`
+<a href="https://github.com/Gausul/imvvyiotwithesp8266/blob/main/geyser-on-off/code.ino">`Download Sample Code`</a>`
 
 
 ### Arduino IDE Instructions:
