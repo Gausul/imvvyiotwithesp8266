@@ -1,4 +1,4 @@
-###  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
+##  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
 
 ### IoT (Internet of things) set-up to operate/control 220-240 Volt AC Geyser/Device
 
@@ -34,10 +34,10 @@ Sample Code Link:
 
 4: Update MQTT `username`,`password` in code according to device profile.
 
-`const char* mqttServer = "broker.imvvy.com";<br>
-const int mqttPort = 8883;<br>
-const char* mqttUser = "**";<br>
-const char* mqttPassword = "***";<br>`
+`const char* mqttServer = "broker.imvvy.com"; <br>
+const int mqttPort = 8883; <br>
+const char* mqttUser = "**"; <br>
+const char* mqttPassword = "***"; <br>`
 
 5: Update MQTT Topic `Publish topic`, `subscribe topic` in code according to device profile.
 ` //publish Topic<br /> 
@@ -46,7 +46,7 @@ const char* mqttPassword = "***";<br>`
  ` //subscribe Topic<br />
   client.subscribe("26e2c877627b88392823ab17c630815841/downlink");`
 
-5: Upload code in to NodeMCU/D1 MINI board 
+5: Upload code to NodeMCU/D1 MINI board 
 
 [![How to create a free account in Imvvy IoT Platform and how to add your first device ?](https://img.youtube.com/vi/HhWT6fqeYvQ/0.jpg)](https://www.youtube.com/watch?v=HhWT6fqeYvQ "How to create a free account in Imvvy IoT Platform and how to add your first device?")
 
