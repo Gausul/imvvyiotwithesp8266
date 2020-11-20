@@ -45,7 +45,10 @@ void setup() {
     }
   }
  char JSONMessage[] = "{\"Value\": 0}";
+ //publish Topic
   client.publish("26e2c877627b88392823ab17c630815841", JSONMessage);
+ 
+ //subscribe Topic
   client.subscribe("26e2c877627b88392823ab17c630815841/downlink");
  
 }
