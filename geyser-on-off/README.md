@@ -28,11 +28,11 @@ Sample Code Link:
 
 2: Update SSID AND PASSOWRD
 
-3: Create Account in Imvvy IOT PlatForm And New MQTT Type Device
+3: Create Account in Imvvy IoT platform and new MQTT type device
 
 [![How to create a free account in Imvvy IoT Platform and how to add your first device ?](https://img.youtube.com/vi/Xmpbjg0zJjM/0.jpg)](https://www.youtube.com/watch?v=Xmpbjg0zJjM "How to create a free account in Imvvy IoT Platform and how to add your first device?")
 
-4: Update MQTT username and password and publis and Subscribe Topic in code according Device Profile
+4: Update MQTT username and password and publish and subscribe topic in code according device profile
 
 5: Upload code in to NodeMCU/D1 MINI board 
 
