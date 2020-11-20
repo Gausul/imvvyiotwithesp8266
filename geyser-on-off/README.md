@@ -15,7 +15,7 @@
 
 ![alt text](https://imvvy.com/Untitleddesign.png)
 
-
+Sample Code Link: <a href="https://github.com/Gausul/imvvyiotwithesp8266/blob/main/geyser-on-off/code.ino">click</a> 
 
 
 #### WARNING!! – THIS PROJECT INVOLVES WORKING WITH HIGH VOLTAGES. PLEASE PROCEED WITH CAUTION, AND ALWAYS MAKE SURE CIRCUITS ARE UN-PLUGGED BEFORE WORKING ON THEM.
