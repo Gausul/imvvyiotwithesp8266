@@ -37,14 +37,16 @@ Sample Code Link:
 ```const char* mqttServer = "broker.imvvy.com";
 const int mqttPort = 8883;
 const char* mqttUser = "**";
-const char* mqttPassword = "***"; ```
+const char* mqttPassword = "***"; 
+```
 
 5: Update MQTT Topic `Publish topic`, `subscribe topic` in code according to device profile.
 
 ```//publish Topic
 client.publish("26e2c877627b88392823ab17c630815841", JSONMessage);
 //subscribe Topic
-client.subscribe("26e2c877627b88392823ab17c630815841/downlink");```
+client.subscribe("26e2c877627b88392823ab17c630815841/downlink");
+```
 
 5: Upload code to NodeMCU/D1 MINI board 
 
