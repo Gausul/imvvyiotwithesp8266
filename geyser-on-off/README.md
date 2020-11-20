@@ -26,7 +26,11 @@ Download Code.ino file open in Arduino IDE
 
 Update SSID AND PASSOWRD
 
-Create Account in Imvvy IOT PlatForm And New MQTT Type Device <a href="https://www.youtube.com/watch?v=Xmpbjg0zJjM&t=27s"> More..</a>
+Create Account in Imvvy IOT PlatForm And New MQTT Type Device
+
+Video How to ADD Device in Imvvy IoT PLATFORM
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/Xmpbjg0zJjM/0.jpg)](https://www.youtube.com/watch?v=Xmpbjg0zJjM&t=29s"How to create a free account in Imvvy IoT Platform and how to add your first device ?")
 
 Update MQTT username and password and publis and Subscribe Topic in code according Device Profile
 
@@ -38,11 +42,11 @@ Example:
 
 for ON :
 
-{"value":1}
+`{"value":1}`
 
 For OFF:
 
-{"value":0}
+`{"value":0}`
 
 
 #### WARNING!! – THIS PROJECT INVOLVES WORKING WITH HIGH VOLTAGES. PLEASE PROCEED WITH CAUTION, AND ALWAYS MAKE SURE CIRCUITS ARE UN-PLUGGED BEFORE WORKING ON THEM.
