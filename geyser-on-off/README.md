@@ -32,7 +32,13 @@ Sample Code Link:
 
 [![How to create a free account in Imvvy IoT Platform and how to add your first device ?](https://img.youtube.com/vi/Xmpbjg0zJjM/0.jpg)](https://www.youtube.com/watch?v=Xmpbjg0zJjM "How to create a free account in Imvvy IoT Platform and how to add your first device?")
 
-4: Update MQTT username and password and publish and subscribe topic in code according device profile
+4: Update MQTT `username`,`password`, `Publish topic`, `subscribe topic` in code according to device profile.
+
+~ //publish Topic 
+  client.publish("26e2c877627b88392823ab17c630815841", JSONMessage);~
+ 
+ ~//subscribe Topic
+  client.subscribe("26e2c877627b88392823ab17c630815841/downlink");~
 
 5: Upload code in to NodeMCU/D1 MINI board 
 
