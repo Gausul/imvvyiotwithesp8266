@@ -36,7 +36,7 @@ Sample Code Link:
 
 5: Update MQTT username and password and publis and Subscribe Topic in code according Device Profile
 
-6: uploaded code in to NodeMCU/D1 MINI board 
+6: Upload code in to NodeMCU/D1 MINI board 
 
 [![How to create a free account in Imvvy IoT Platform and how to add your first device ?](https://img.youtube.com/vi/HhWT6fqeYvQ/0.jpg)](https://www.youtube.com/watch?v=HhWT6fqeYvQ "How to create a free account in Imvvy IoT Platform and how to add your first device?")
 
