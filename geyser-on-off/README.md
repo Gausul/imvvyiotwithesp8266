@@ -34,10 +34,10 @@ Sample Code Link:
 
 4: Update MQTT `username`,`password`, `Publish topic`, `subscribe topic` in code according to device profile.
 
-~ //publish Topic 
-  client.publish("26e2c877627b88392823ab17c630815841", JSONMessage);~
+` //publish Topic 
+  client.publish("26e2c877627b88392823ab17c630815841", JSONMessage);`
  
- ~//subscribe Topic
+ ` //subscribe Topic
   client.subscribe("26e2c877627b88392823ab17c630815841/downlink");~
 
 5: Upload code in to NodeMCU/D1 MINI board 
