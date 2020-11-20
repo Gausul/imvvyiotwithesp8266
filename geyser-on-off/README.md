@@ -1,4 +1,4 @@
-#  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
+##  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
 
 ### IoT (Internet of things) set-up to operate/control 220-240 Volt AC Geyser/Device
 
@@ -17,28 +17,30 @@
 
 ![alt text](https://imvvy.com/Untitleddesign.png)
 
-Sample Code Link: <a href="https://github.com/Gausul/imvvyiotwithesp8266/blob/main/geyser-on-off/code.ino">click</a> 
+Sample Code Link: 
+
+`<a href="https://github.com/Gausul/imvvyiotwithesp8266/blob/main/geyser-on-off/code.ino">Download Sample Code</a>`
 
 
-Arduino IDE Instructions:
+### Arduino IDE Instructions:
 
-Download Code.ino file open in Arduino IDE 
+1: Download Code.ino file open in Arduino IDE 
 
-Update SSID AND PASSOWRD
+2: Update SSID AND PASSOWRD
 
-Create Account in Imvvy IOT PlatForm And New MQTT Type Device
+3: Create Account in Imvvy IOT PlatForm And New MQTT Type Device
 
-Video How to ADD Device in Imvvy IoT PLATFORM
+4: Video How to ADD Device in Imvvy IoT PLATFORM
 
 [![How to create a free account in Imvvy IoT Platform and how to add your first device ?](https://img.youtube.com/vi/Xmpbjg0zJjM/0.jpg)](https://www.youtube.com/watch?v=Xmpbjg0zJjM "How to create a free account in Imvvy IoT Platform and how to add your first device?")
 
-Update MQTT username and password and publis and Subscribe Topic in code according Device Profile
+5: Update MQTT username and password and publis and Subscribe Topic in code according Device Profile
 
-uploaded code in to NodeMCU/D1 MINI board <a href="https://www.youtube.com/watch?v=HhWT6fqeYvQ&t=12s"> More </a>
+6: uploaded code in to NodeMCU/D1 MINI board 
 
 [![How to create a free account in Imvvy IoT Platform and how to add your first device ?](https://img.youtube.com/vi/HhWT6fqeYvQ/0.jpg)](https://www.youtube.com/watch?v=HhWT6fqeYvQ "How to create a free account in Imvvy IoT Platform and how to add your first device?")
 
-Open MQTT.fx send cmd
+#### Open MQTT.fx send cmd
 
 Example:
 
