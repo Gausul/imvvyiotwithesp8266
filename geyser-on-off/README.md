@@ -1,3 +1,6 @@
+
+![alt text](https://imvvy.com/Untitleddesign.png)
+
 ##  Control 220-240 Volt Electric Geyser | NodeMCU/D1 MINI + 5V Relay + MQTT (Imvvy IoT Platform) + Arduino IDE 
 
 ### IoT (Internet of things) set-up to operate/control 220-240 Volt AC Geyser/Device
@@ -14,8 +17,6 @@
 
 5: MQTT.FX /IMVVY MOBILE APP
 
-
-![alt text](https://imvvy.com/Untitleddesign.png)
 
 Sample Code Link: 
 
@@ -43,9 +44,9 @@ const char* mqttPassword = "***";
 5: Update MQTT Topic `Publish topic`, `subscribe topic` in code according to device profile.
 
 ```//publish Topic
-client.publish("26e2c877627b88392823ab17c630815841", JSONMessage);
+client.publish("[Publish Topic]", JSONMessage);
 //subscribe Topic
-client.subscribe("26e2c877627b88392823ab17c630815841/downlink");
+client.subscribe("[Subscribe Topic]");
 ```
 
 5: Upload code to NodeMCU/D1 MINI board 
